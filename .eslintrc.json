@@ -6,16 +6,9 @@
     },
     "extends": "airbnb-base",
     "parserOptions": {
-        "ecmaVersion": 2018,
+        "ecmaVersion": "latest",
         "sourceType": "module"
     },
     "rules": {
-        "no-restricted-syntax": [
-            "error",
-            "LabeledStatement",
-            "WithStatement"
-          ],
-        "linebreak-style": 0,
-        "indent": 0
     }
 }
